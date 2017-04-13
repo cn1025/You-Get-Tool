@@ -50,7 +50,7 @@ namespace YouGet
             p.StandardInput.WriteLine("cd /d \"" + Application.StartupPath + "\"");
 
             //向cmd窗口发送输入信息
-            p.StandardInput.WriteLine("you-get -p vlc " + url + "&exit");
+            p.StandardInput.WriteLine("you-get -p mpv " + url + "&exit");
 
             p.StandardInput.AutoFlush = true;
             //p.StandardInput.WriteLine("exit");
